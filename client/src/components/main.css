@@ -1,0 +1,449 @@
+
+
+  
+/* navbar styling */
+ .navbar_container{
+    background-color: rgb(69, 60, 60);
+}
+.icon_style{
+    color: white;
+    background-color: white;
+}
+
+.brand_style{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    font-family: "Roboto";
+}
+.brand_style:hover{
+    color: white;
+}
+.span_style{
+    color: orange;
+}
+
+.link_style{
+    color: white;
+    font-size: 1.9rem;
+    text-decoration: none;
+    margin: 2px 8px;
+    letter-spacing: 1px;
+    font-family: "Roboto";
+    transition: 0.7s ease-in;
+}
+
+.link_style:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+
+
+
+/* login page styling */
+
+.login_container{
+    min-height: 90vh;
+}
+
+.image_column{
+    height: 90vh;
+}
+
+.logo_img{
+    width: 100%;
+}
+
+.content_column{
+    padding: 20px;
+}
+
+.welcome_text{
+    font-weight: 700;
+    font-size: 3.3rem;
+}
+
+/* .form_container{
+    padding: 40px 30px;
+} */
+
+.text_label{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 10px;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+.span_label{
+    position: absolute;
+    color: red;
+    font-size: 1rem;
+}
+
+.email_container{
+    width: 100%;
+}
+
+.email_input{
+    border: 0.5px solid rgb(141, 139, 139);
+    box-shadow: 0px 0px 4px gray;
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 1.9rem;
+    font-weight: 500;
+    width: 100%;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+.email_input:hover{
+    border: 2px solid lightblue;
+    outline: 2px solid lightblue;
+}
+.email_input:focus{
+    border: 2px solid lightblue;
+    outline: 2px solid lightblue;
+}
+
+.login_type{
+    font-size: 1.6rem;
+    color: blue;
+    border-bottom: 1px solid blue;
+    letter-spacing: 1px;
+}
+
+.password_main_container{
+    width: 100%;
+}
+
+.password_container{
+    border: 0.5px solid rgb(141, 139, 139);
+    box-shadow: 0px 0px 4px gray;
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 1.9rem;
+    width: 100%;
+}
+
+.password_container:hover{
+    border: 2px solid lightblue;
+    outline: 2px solid lightblue;
+}
+
+
+.password_input{
+    border: none;
+    outline: none;
+    width: 90%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+.eye_content{
+    font-size: 2.8rem;
+    padding-right: 10px;
+    width: 10%;
+}
+
+.checkbox_field{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.checkbox_label{
+    font-size: 1.7rem;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.forgot_link{
+    font-size: 1.7rem;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: blue;
+    text-decoration: none;
+}
+
+
+.btn-styling{
+    width: 100%;
+    padding: 5px 0px;
+    background-color: lightgray;
+    color: gray;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.btn-styling:hover{
+    box-shadow: 0px 0px 5px blue;
+}
+
+.or_login_content{
+    width: 100%;
+    font-size: 2rem;
+    color: gray;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+}
+.or_login_content::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 35%;
+    border: 1px solid gray;
+}
+.or_login_content::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 35%;
+    border: 1px solid gray;
+}
+
+
+.google-btn-styling{
+    width: 100%;
+    padding: 5px 0px;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px gray;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.google-btn-styling:hover{
+    box-shadow: 0px 0px 5px blue;
+}
+
+.span_google{
+    padding-right: 10px;
+    font-size: 3rem;
+}
+
+.register_content{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.register_link{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+.failed_count{
+    letter-spacing: 1px;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.otp_input{
+    font-size: 2.2rem;
+}
+
+
+.label_field{
+    font-size: 2.1rem;
+    padding-bottom: 5px;
+    font-weight: 500;
+    color: rgb(40, 38, 38);
+    letter-spacing: 1px;
+}
+
+.otp_btn{
+    border:none;
+    background-color: white;
+    color: blue;
+    font-size: 1.9rem;
+    border-bottom: 2px solid blue;
+    font-weight: 500;
+}
+
+
+
+.verify_btn{
+    font-size: 2rem;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+}
+
+
+/* side navbar css */
+.sidebar_brand{
+    margin-top: 10px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.side_link_style{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.side_link_style:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.icon_span{
+    padding-right: 5px;
+}
+
+
+/* admin services css */
+.search_container{
+    width: 500px;
+    border: 1px solid gray;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search_input{
+    width: 450px;
+    border: none;
+    outline: none;
+}
+
+.search_btn{
+    border: none;
+    background-color: transparent;
+}
+
+.search_icon{
+    font-size: 2rem;
+}
+
+
+/* services display css */
+.displayServices_box{
+    width: 380px;
+    box-shadow: 0px 0px 3px gray;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.displayServices_box:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px purple;
+}
+
+.title{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+.category{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+.phone{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+.location{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+.edit_btn{
+    font-size: 1.6rem;
+    padding: 5px;
+    width: 70px;
+}
+
+
+/* Add services css */
+.addservice_btn{
+    font-size: 1.6rem;
+    padding: 5px;
+}
+
+.input-container{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.add_label{
+    font-size: 1.9rem;
+    width: 15%;
+}
+
+.add_input{
+    width: 60%;
+    border: 0.5px solid rgb(141, 139, 139);
+    box-shadow: 0px 0px 4px gray;
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 1.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+.add_input:focus{
+    border: 2px solid lightblue;
+    outline: 2px solid lightblue;
+}
+
+.save_btn{
+    font-size: 1.9rem;
+    padding: 5px 20px;
+}
+
+
+
+
+/* loading css */
+.lds-dual-ring{
+    color: #46dff0;
+}
+
+.lds-dual-ring,
+.lds-dual-ring:after {
+  box-sizing: border-box;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6.4px solid currentColor;
+  border-color: currentColor transparent currentColor transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
